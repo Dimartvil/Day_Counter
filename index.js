@@ -1,7 +1,7 @@
 
 const countDown = () => {
     const TODAY = new Date();
-    const HOLLIDAYS = new Date ("December 25, 2021")
+    const HOLLIDAYS = new Date ("January 30, 2021 12:00:00")
     const secondsDay = 86400
     const secondsHour = 3600
     const secondsMinute = 60

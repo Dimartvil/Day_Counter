@@ -6,12 +6,12 @@
 
 html{
     font-size: 62.5%;
-    font-family: 'Dancing Script', cursive;
+    font-family: serif;
 }
 
 body{
     background-color:black;
-    background-image: url("img/pexels-francis-seura-735151.jpg");
+    background-image: url("img/pexels-sindre-strøm-983373.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
