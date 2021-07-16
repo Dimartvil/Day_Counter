@@ -19,6 +19,8 @@ main{
     text-align: center;
     width: 100%;
     max-width: 100vw;
+   
+    z-index: -101;
 }
 section{
     width: 100%;
@@ -37,6 +39,7 @@ video{
     z-index: -100;
       
     background-size: cover;
+    background-image: url(img/pexels-designecologist-2526105.jpg);
 }
 .content{
  width: 100%;
