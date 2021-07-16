@@ -10,11 +10,6 @@ html{
 }
 
 body{
-    background-color:black;
-    background-image: url("img/pexels-sindre-strøm-983373.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 main{
     display: flex;
@@ -22,6 +17,29 @@ main{
     align-items: center;
     height: 100vh;
     text-align: center;
+    width: 100%;
+    max-width: 100vw;
+}
+section{
+    width: 100%;
+}
+video{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+  
+    position: fixed;    
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%); 
+        
+    z-index: -100;
+      
+    background-size: cover;
+}
+.content{
+ width: 100%;
 }
 h1{
     color:white;
@@ -40,6 +58,7 @@ span{
     width: 70%;
     margin:0 auto;
     display: flex;
+    width: 100%;
     justify-content: space-around; 
     margin-top: 100px;
 }
@@ -52,6 +71,7 @@ span{
     display: flex;
     flex-direction: column;
     margin: 0 20px;
+
 }
 
 .time-container span{
