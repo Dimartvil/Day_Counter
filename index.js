@@ -23,5 +23,5 @@ const countDown = () => {
     $MINUTES.innerText = `${minutesLeft}`
     $SECONDS.innerText = `${secondsLeft}`
 }
-
+countDown();
 setInterval(countDown,1000)
